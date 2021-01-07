@@ -18,7 +18,7 @@ func Defaults() corev1.ResourceRequirements {
 }
 
 func newDefaultRequirements() (corev1.ResourceRequirements, error) {
-	return newRequirements("1.0", "500M", "0.5", "400M")
+	return newRequirements("0.3", "400M", "0.2", "300M")
 }
 
 // newRequirements returns a new corev1.ResourceRequirements with the specified arguments, and an error
